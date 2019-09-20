@@ -17,6 +17,24 @@ HMI - Human Machine Interface， 在汽车上，特指机车系统上，包括�
     * Left(左)
     * Right(右)
 
+#### 能源（燃油/电）: 
+* Fuel Type: 燃料种类
+    * Leaded: 加铅汽油(Leaded
+ gasoline)
+    * Unleaded: 无铅汽油(Unleaded gasoline)
+    * Diesel: 柴油
+    * E85: 乙醇汽油(85% ethanol/gasoline blend)
+    * LDP: 液化石油气(Liquified petroleum gas)
+    * CNG: 压缩天然气(Compressed natural gas)
+    * LNG: 液态天然气(Liquified natural gas)
+    * Electric: 电动
+    * Hydrogen: 混动
+* Fuel level: 燃油余量（以英里或者公里数表示）
+* Port Location: 燃油盖/充电口的位置，一般在后右，后左，前左，前右等位置
+    * Fuel door: 燃油盖
+    * Ev port location: 充电口
 
+### 报警信息
+* Fuel level low: 燃油低提醒
 
 
