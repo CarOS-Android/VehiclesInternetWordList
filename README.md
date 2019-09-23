@@ -32,9 +32,19 @@ HMI - Human Machine Interface， 在汽车上，特指机车系统上，包括�
     * LNG: 液态天然气(Liquified natural gas)
     * Electric: 电动
     * Hydrogen: 混动
-* Fuel level: 燃油余量（以英里或者公里数表示）
-* Port Location: 燃油盖/充电口的位置，一般在后右，后左，前左，前右等位置
-    * Fuel door: 燃油盖
-    * Ev port location: 充电口
+* Level: 燃料量
+    * Fuel level: 汽油余量（以英里或者公里数表示）
+    * EV Battery level: 电池余量(WH以瓦特每小时表示)
+* Fuel volume display units: 油量显示单位
+    * Liter: 公升
+    * Gallon: 加仑
+* Port: 
+    * Location: 燃油盖/充电口的位置，一般在后右，后左，前左，前右等位置
+        * Fuel door: 燃油盖
+        * Ev port location: 充电口
+    * State: 状态
+        * Door open: 燃油盖打开
+        * Ev charge port open: 充电口打开
+        * Ev charge port connected: 正在充电
 
 
