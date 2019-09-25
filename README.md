@@ -26,6 +26,10 @@ V2X - Vehicle to X，车与万物（X是指的everything）
     
 #### D灯光：Light
 * Headlights: 近光灯
+    * On: 开启
+    * Off: 关闭
+    * Daytime running: 日行灯
+    * Automatic: 自动大灯
 * High Beam Lights: 远光灯
 * Hazard Lights: 示宽灯
 * Fog Lights: 雾灯 
@@ -34,6 +38,8 @@ V2X - Vehicle to X，车与万物（X是指的everything）
 * Turn Signal Light: 转向灯
     * Left(左)
     * Right(右)
+* Cabin lights: 氛围灯
+* Reading lights: 阅读灯
     
 #### F发动机：Engine
 * Temperature of engine coolant: 冷却液温度
@@ -104,6 +110,14 @@ V2X - Vehicle to X，车与万物（X是指的everything）
     * Off: 关闭
     * ACC: 只启动部分功能，仪表盘跟引擎没有启动
     * On: 启动
+* Door lock: 门锁
+* Mirror: 后视镜
+* Mirror fold: 后视镜折叠
+* Mirror lock: 后视镜锁定
+* Seat memory: 座椅记忆
+* Window lock: 车窗锁
+* Hood: 引擎盖
+* Rear: 车尾
 
 #### Y仪表盘： Cluster
 * Odometer: 里程表
