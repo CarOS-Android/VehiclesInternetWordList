@@ -11,6 +11,22 @@ V2X - Vehicle to X，车与万物（X是指的everything）
 * V2N - Vehicle to Network，车与网络
 * V2C - Vehicle to Cloud，车与云
 
+IVI - In-Vehicle Infotainment，车内娱乐系统
+ECU - Engine control unit/module， 电子控制单元
+
+* TCU - Transmission Control Unit
+* EMS - Engine Management Systems
+* BCM - Body Control Module
+* BMS - Battery Management System
+* HAVC - Heat, Air Ventilation, and Cooling
+* SRS - Airbag System
+
+CAN bus - Controller Area Network，汽车内部通讯网络系统，将一堆节点（node），也就是ECU串联在一起进行通讯
+
+* CAN FD - Flexible data rate can protocol
+
+OBD2 - On-board diagnostics，用来诊断跟上报汽车异常，根据诊断码(DTCs diagnostic trouble codes)
+
 ## Words English - 中文(A-Z)
 ### B报警信息
 * Fuel level low: 燃油低提醒
