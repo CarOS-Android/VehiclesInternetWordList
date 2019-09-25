@@ -44,6 +44,7 @@ V2X - Vehicle to X，车与万物（X是指的everything）
 #### F发动机：Engine
 * Temperature of engine coolant: 冷却液温度
 * Engine oil level: 机油量
+* Engine oil temperature: 机油温度
 * Engine RPM: 发动机转速
 * Speed: 当前时速
 
