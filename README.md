@@ -3,6 +3,13 @@ This is repo to maintain all Vehicle Project Special words.
 
 ## Word Description
 HMI - Human Machine Interface， 在汽车上，特指机车系统上，包括但不限于中控，仪表，HUD等等车内人机交互系统。
+IoV - Internet of Vehicles，车联网，物联网(IoT)的一种，将车辆，路面信息，基础设施，网络，云等连接到一起。
+V2X - Vehicle to X，车与万物（X是指的everything）
+
+* V2V - Vehicle to Vehicle，车与车
+* V2P - Vehicle to Pedestrian，车与人
+* V2N - Vehicle to Network，车与网络
+* V2C - Vehicle to Cloud，车与云
 
 ## Words English - 中文(A-Z)
 ### B报警信息
@@ -47,4 +54,9 @@ HMI - Human Machine Interface， 在汽车上，特指机车系统上，包括�
         * Ev charge port open: 充电口打开
         * Ev charge port connected: 正在充电
 
+## Vehicle Tech Rader - 车联网技术雷达，技术栈(Tech Stack)
+### Technology
+### Platform
+### Framework & Language
+### Tools
 
