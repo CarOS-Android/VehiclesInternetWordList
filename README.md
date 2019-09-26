@@ -27,6 +27,8 @@ CAN bus - Controller Area Network，汽车内部通讯网络系统，将一堆�
 
 OBD2 - On-board diagnostics，用来诊断跟上报汽车异常，根据诊断码(DTCs diagnostic trouble codes)
 
+ADAS - Advanced Driver Assistance Systems，高级驾驶辅助系统
+
 ## Words English - 中文(A-Z)
 ### B报警信息
 * Fuel level low: 燃油低提醒
@@ -63,6 +65,28 @@ OBD2 - On-board diagnostics，用来诊断跟上报汽车异常，根据诊断�
 * Engine oil temperature: 机油温度
 * Engine RPM: 发动机转速
 * Speed: 当前时速
+
+#### G高级驾驶辅助系统：ADAS
+* Adaptive Cruise Control (ACC)：自适应巡航
+* Adaptive Light Control (ALC)：自适应灯光
+* Automotive Navigation System(ANS)：自动导航系统，基于GPS和交通信息TMC(Traffic Message Channel)
+* Blind-Spot Monitoring (BSM)：盲点监测系统
+* Collision avoidance system/Precrash system：防撞系统
+* Driver drowsiness detection：驾驶员疲劳探测
+* Driver Monitoring System (DMS)：驾驶员监测系统
+* Forward Collision Warning (FCW)：前撞警告
+* Head-Up Display (HUD)：平视显示器
+* Hill descent control：下坡控制
+* Intelligent Speed Adaptation (ISA)：智能车速适应/电子警察系统
+* Lane change assistance：变道辅助
+* Lane keep assistance：车道保持
+* Lane Departure Warning (LDW)：车道偏移报警系统
+* Night Vision System (NVS)：夜视系统
+* Pedestrian Detection System (PDS)：行人探测系统
+* Park Assist (PA)：泊车辅助
+* Road Sign Recognition (RSR)：道路信号识别
+* Surround-View Cameras (SVC)：环视相机
+* Autonomous Emergency Braking (AEB)：自主紧急制动
 
 #### K空调制冷制热通风: HAVC(Heat, Air Ventilation, and Cooling)
 * Fan speed: 风扇速度
