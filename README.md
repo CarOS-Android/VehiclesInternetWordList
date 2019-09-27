@@ -174,9 +174,4 @@ ADAS - Advanced Driver Assistance Systems，高级驾驶辅助系统
 * Traction control: 牵引力控制
 * Outside temperature: 车外温度
 
-## Vehicle Tech Rader - 车联网技术雷达，技术栈(Tech Stack)
-### Technology
-### Platform
-### Framework & Language
-### Tools
 
