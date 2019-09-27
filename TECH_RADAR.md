@@ -6,7 +6,7 @@
 
 | Tech                  | Capability                                              | Rate(0-5) |
 | --------------------- | ------------------------------------------------------- | --------- |
-| Android OS            | System APP / System Service / APP                       | 2         |
+| Android OS            | SystemUI / Launcher / System Service / APP              | 2         |
 | Android Automotive OS | Car Framework Design / Framework / HMI / Test Framework | 2         |
 | CAN                   | Test / OBD                                              | 2         |
 | Maps(via 3rd SDK)     | Navigation customization                                | 3         |
