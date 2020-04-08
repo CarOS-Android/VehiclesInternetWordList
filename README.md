@@ -41,7 +41,7 @@ ADAS - Advanced Driver Assistance Systems，高级驾驶辅助系统
     * Gear Park: P档
     * Gear Drive: D档
     * Gear 1,2..: 1,2..档
-    
+
 #### D灯光：Light
 * Headlights: 近光灯
     * On: 开启
@@ -58,7 +58,7 @@ ADAS - Advanced Driver Assistance Systems，高级驾驶辅助系统
     * Right(右)
 * Cabin lights: 氛围灯
 * Reading lights: 阅读灯
-    
+
 #### F发动机：Engine
 * Temperature of engine coolant: 冷却液温度
 * Engine oil level: 机油量
@@ -141,7 +141,7 @@ ADAS - Advanced Driver Assistance Systems，高级驾驶辅助系统
         * Door open: 燃油盖打开
         * Ev charge port open: 充电口打开
         * Ev charge port connected: 正在充电
-        
+
 #### Q汽车座舱: Cabin
 * Driver Seat: 驾驶员座椅
 * Parking brake state: 手刹状态
@@ -159,6 +159,8 @@ ADAS - Advanced Driver Assistance Systems，高级驾驶辅助系统
 * Window lock: 车窗锁
 * Hood: 引擎盖
 * Rear: 车尾
+* Front windshield: 前挡风玻璃
+* Rear windshield: 后挡风玻璃
 
 #### Y仪表盘： Cluster
 * Odometer: 里程表
@@ -173,5 +175,3 @@ ADAS - Advanced Driver Assistance Systems，高级驾驶辅助系统
 * ABS: 防抱死系统
 * Traction control: 牵引力控制
 * Outside temperature: 车外温度
-
-
