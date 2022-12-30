@@ -22,13 +22,12 @@ ECU - Engine control unit/module， 电子控制单元
 * HAVC - Heat, Air Ventilation, and Cooling
 * SRS - Airbag System
 
-CAN bus - Controller Area Network，汽车内部通讯网络系统，将一堆节点（node），也就是ECU串联在一起进行通讯
-
-* CAN FD - Flexible data rate can protocol
-
 OBD2 - On-board diagnostics，用来诊断跟上报汽车异常，根据诊断码(DTCs diagnostic trouble codes)
 
 ADAS - Advanced Driver Assistance Systems，高级驾驶辅助系统
+
+SOA - Service-Orientated Architectures
+E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?v=XpvTOuOgGWY&ab_channel=VECTOR)
 
 ## Words English - 中文(A-Z)
 ### B报警信息
@@ -176,3 +175,12 @@ ADAS - Advanced Driver Assistance Systems，高级驾驶辅助系统
 * ABS: 防抱死系统
 * Traction control: 牵引力控制
 * Outside temperature: 车外温度
+
+### X协议
+* AE: Automotive Ethernet，车载以太网，100BASE-T1作为物理层协议
+* CAN bus：Controller Area Network，汽车内部通讯网络系统，将一堆节点（node），也就是ECU串联在一起进行通讯。速率大概是1Mbps
+* CAN FD：Flexible data rate can protocol
+* LIN：Local Interconnect sub-bus Network，一种低速总线，速率大概是20 kbps
+* FlexRay：速率大概是10Mbps
+* Ethernet：以太网，速率大概是100 Mbps，主要服务于视频、音频传输，ADAS系统主要的网络
+* SOME/IP：Scalable Service-Oriented Middleware over IP，运行于IP之上的面向服务的可伸缩的中间件协议，SOME/IP于2011年由BMW设计，2014年纳入AUTOSAR规范，是针对车载场景的协议规范。
