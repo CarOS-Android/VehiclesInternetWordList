@@ -26,12 +26,15 @@ OBD2 - On-board diagnostics，用来诊断跟上报汽车异常，根据诊断�
 
 ADAS - Advanced Driver Assistance Systems，高级驾驶辅助系统
 
+ETC - Electronic Toll Collection card，电子不停车收费
+
 SOA - Service-Orientated Architectures
 E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?v=XpvTOuOgGWY&ab_channel=VECTOR)
 
 ## Words English - 中文(A-Z)
 ### B报警信息
 * Fuel level low: 燃油低提醒
+* Critically low tire pressure: 极低胎压
 
 ### C车辆属性 - Vehicle Properties
 #### B变速箱: Gearbox
@@ -87,6 +90,7 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 * Road Sign Recognition (RSR)：道路信号识别
 * Surround-View Cameras (SVC)：环视相机
 * Autonomous Emergency Braking (AEB)：自主紧急制动
+* Anti-lock Braking System（ABS）：防抱死制动装置
 
 #### K空调制冷制热通风: HAVC(Heat, Air Ventilation, and Cooling)
 * Fan speed: 风扇速度
@@ -110,6 +114,7 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 * Seat ventilation: 座椅通风
 * Side Mirror Heat: 后视镜加热
 * Steering Wheel Heating/Cooling: 方向盘加热/制冷
+* Outside temperature: 室外温度
 
 #### N能源（燃油/电）: 
 * Fuel Type: 燃料种类
@@ -129,10 +134,11 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 * Fuel volume: 邮箱容量
     * Liter: 公升
     * Gallon: 加仑
-* EV Battery: 电量
+* EV Battery capacity: 电量
     * Watt/Hour(Wh): 瓦特每小时
     * Ampere/Hours(Ah): 安培每小时
     * Kilowatt/Hour(kWh): 千瓦特每小时
+* EV instantaneous charge rate：瞬时充电速率
 * Port: 
     * Location: 燃油盖/充电口的位置，一般在后右，后左，前左，前右等位置
         * Fuel door: 燃油盖
@@ -155,7 +161,19 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 * Mirror: 后视镜
 * Mirror fold: 后视镜折叠
 * Mirror lock: 后视镜锁定
-* Seat memory: 座椅记忆
+* Seat: 座椅
+    * memory: 座椅记忆
+    * fore/aft move: 前后移动
+    * depth: 座椅深度
+    * height: 座椅高度
+    * lumbar：座椅腰部
+    * lumbar side: 座椅腰部侧面
+    * Headrest: 头枕
+        * fore/aft move:
+        * height:
+        * angle: 角度
+    * tilt: 座椅倾斜
+
 * Window lock: 车窗锁
 * Hood: 引擎盖
 * Rear: 车尾
@@ -166,15 +184,16 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 * Odometer: 里程表
     * Kilometer: 公里
     * Mile: 英里
+* Speed: 当前速度
 * Range remaining: 剩余里程数（当前燃料可以支撑的）
 * Steering angle: 方向盘转角
 * Tire pressure: 胎压
     * Kilopascal: 千帕
     * PSI: 磅/平方英寸
     * BAR: 1 bar ≡ 100,000 Pa ≡ 100,000 N/m2
-* ABS: 防抱死系统
 * Traction control: 牵引力控制
 * Outside temperature: 车外温度
+* Display brightness: 显示亮度
 
 ### X协议
 * AE: Automotive Ethernet，车载以太网，100BASE-T1作为物理层协议
