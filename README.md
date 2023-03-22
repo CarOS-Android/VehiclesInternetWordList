@@ -179,6 +179,22 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 * Rear: 车尾
 * Front windshield: 前挡风玻璃
 * Rear windshield: 后挡风玻璃
+* Head Unit: 车载主机 -- HU
+* Instrument cluster: 仪表盘 --IC
+* CIVIC: 前排
+* Rear Seat Unit: 后排 -- RSU
+* Inner Core communication /  Inner Cput communication: 客户内部叫法，不通用 -- ICC
+* Basic Technology Rollout Plan: BROP
+* Sub System Architecutre: 子系统架构 -- SSA
+* Qualcomm Flash Image Loader: QFIL
+* Automotive Develop Platform: ADP
+* Universal Flash Device: is a univesal data storage and communication media --UFS
+* Candela Diagnostic Data: A CDD (CANdelaStudio diagnostic description) is a proprietary file format from the company "Vector Informatik" -- CDD 
+* Multimedia SOC/ Main Soc: MSOC
+* VCPU:  vehicle cpu
+* Base Board: 基板 --BB
+* MultiMedia Board: 多媒体主板 --MMB
+* Country Specific Board: 不同国家特定的板子 --CSB
 
 #### Y仪表盘： Cluster
 * Odometer: 里程表
