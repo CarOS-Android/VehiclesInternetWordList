@@ -116,6 +116,20 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 * Steering Wheel Heating/Cooling: 方向盘加热/制冷
 * Outside temperature: 室外温度
 
+#### K开发板/研发
+* BB, Base Board: 基板
+* MMB, MultiMedia Board: 多媒体主板
+* CSB, Country Specific Board: 不同国家特定的板子
+* MSOC, Multimedia SoC/ Main SoC: 多媒体片上系统
+* VCPU, vehicle cpu: 车载中央处理器
+* HU, Head Unit: 车载主机
+* BROP, Basic Technology Rollout Plan: 基础技术推广技术
+* QFIL, Qualcomm Flash Image Loader: 高通固件加载器
+* SSA, Sub System Architecutre: 子系统架构
+* UFS, Universal Flash Device: is a univesal data storage and communication media
+* CDD, Candela Diagnostic Data: A CDD (CANdelaStudio diagnostic description) is a proprietary file format from the company "Vector Informatik"
+* ADP, Automotive Develop Platform: 
+
 #### N能源（燃油/电）: 
 * Fuel Type: 燃料种类
     * Leaded: 加铅汽油(Leaded
@@ -179,22 +193,6 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 * Rear: 车尾
 * Front windshield: 前挡风玻璃
 * Rear windshield: 后挡风玻璃
-* Head Unit: 车载主机 -- HU
-* Instrument cluster: 仪表盘 --IC
-* CIVIC: 前排
-* Rear Seat Unit: 后排 -- RSU
-* Inner Core communication /  Inner Cput communication: 客户内部叫法，不通用 -- ICC
-* Basic Technology Rollout Plan: BROP
-* Sub System Architecutre: 子系统架构 -- SSA
-* Qualcomm Flash Image Loader: QFIL
-* Automotive Develop Platform: ADP
-* Universal Flash Device: is a univesal data storage and communication media --UFS
-* Candela Diagnostic Data: A CDD (CANdelaStudio diagnostic description) is a proprietary file format from the company "Vector Informatik" -- CDD 
-* Multimedia SOC/ Main Soc: MSOC
-* VCPU:  vehicle cpu
-* Base Board: 基板 --BB
-* MultiMedia Board: 多媒体主板 --MMB
-* Country Specific Board: 不同国家特定的板子 --CSB
 
 #### Y仪表盘： Cluster
 * Odometer: 里程表
@@ -210,6 +208,7 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 * Traction control: 牵引力控制
 * Outside temperature: 车外温度
 * Display brightness: 显示亮度
+* IC, Instrument cluster: 仪表盘
 
 ### X协议
 * AE: Automotive Ethernet，车载以太网，100BASE-T1作为物理层协议
@@ -219,3 +218,8 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 * FlexRay：速率大概是10Mbps
 * Ethernet：以太网，速率大概是100 Mbps，主要服务于视频、音频传输，ADAS系统主要的网络
 * SOME/IP：Scalable Service-Oriented Middleware over IP，运行于IP之上的面向服务的可伸缩的中间件协议，SOME/IP于2011年由BMW设计，2014年纳入AUTOSAR规范，是针对车载场景的协议规范。
+
+### 其他
+* CIVIC: 前排
+* Rear Seat Unit: 后排 -- RSU
+* ICC, Inner Core communication /  Inner Cput communication: 内部叫法，不通用
