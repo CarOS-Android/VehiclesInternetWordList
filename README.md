@@ -65,6 +65,10 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 #### F发动机：Engine
 * Temperature of engine coolant: 冷却液温度
 * Engine oil level: 机油量
+    * critically low: 非常低
+    * low: 低
+    * normal: 正常
+    * high: 高
 * Engine oil temperature: 机油温度
 * Engine RPM: 发动机转速
 * Speed: 当前时速
@@ -136,6 +140,7 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
  gasoline)
     * Unleaded: 无铅汽油(Unleaded gasoline)
     * Diesel: 柴油
+    * Biodiesel: 生物柴油
     * E85: 乙醇汽油(85% ethanol/gasoline blend)
     * LDP: 液化石油气(Liquified petroleum gas)
     * CNG: 压缩天然气(Compressed natural gas)
@@ -152,7 +157,11 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
     * Watt/Hour(Wh): 瓦特每小时
     * Ampere/Hours(Ah): 安培每小时
     * Kilowatt/Hour(kWh): 千瓦特每小时
-* EV instantaneous charge rate：瞬时充电速率
+* EV instantaneous charge rate: 瞬时充电速率
+* EV regenerative braking state: 回收制动
+* EV connector type: 充电枪类型
+    * AC: 交流
+    * DC: 直流
 * Port: 
     * Location: 燃油盖/充电口的位置，一般在后右，后左，前左，前右等位置
         * Fuel door: 燃油盖
@@ -161,6 +170,8 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
         * Door open: 燃油盖打开
         * Ev charge port open: 充电口打开
         * Ev charge port connected: 正在充电
+* Power: 电源
+    * Power policy: 电源策略
 
 #### Q汽车座舱: Cabin
 * Driver Seat: 驾驶员座椅
@@ -171,12 +182,15 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
     * Off: 关闭
     * ACC: 只启动部分功能，仪表盘跟引擎没有启动
     * On: 启动
+    * Start: 
 * Door lock: 门锁
 * Mirror: 后视镜
 * Mirror fold: 后视镜折叠
 * Mirror lock: 后视镜锁定
 * Seat: 座椅
     * memory: 座椅记忆
+        * select: 选项
+        * set：设置
     * fore/aft move: 前后移动
     * depth: 座椅深度
     * height: 座椅高度
@@ -187,6 +201,10 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
         * height:
         * angle: 角度
     * tilt: 座椅倾斜
+    * occupancy: 是否入座
+        * vacant: 空着
+        * occupied: 入座
+    * belt buckled: 安全带扣入
 
 * Window lock: 车窗锁
 * Hood: 引擎盖
