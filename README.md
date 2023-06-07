@@ -19,7 +19,7 @@ ECU - Engine control unit/module， 电子控制单元
 * EMS - Engine Management Systems
 * BCM - Body Control Module
 * BMS - Battery Management System
-* HAVC - Heat, Air Ventilation, and Cooling
+* HVAC - Heating, Ventilation, and Air Conditioning
 * SRS - Airbag System
 
 OBD2 - On-board diagnostics，用来诊断跟上报汽车异常，根据诊断码(DTCs diagnostic trouble codes)
@@ -96,7 +96,7 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 * Autonomous Emergency Braking (AEB)：自主紧急制动
 * Anti-lock Braking System（ABS）：防抱死制动装置
 
-#### K空调制冷制热通风: HAVC(Heat, Air Ventilation, and Cooling)
+#### K空调制冷制热通风: HVAC(Heating, Ventilation, and Air Conditioning)
 * Fan speed: 风扇速度
 * Fan speed RPN: 风扇转速
 * Fan direction: 出风方向
