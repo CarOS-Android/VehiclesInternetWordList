@@ -45,12 +45,18 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
     * Gear Drive: D档
     * Gear 1,2..: 1,2..档
 
+#### D动力模式：Powertrain type
+* Plug-in hybrid: 插件混动
+* All-electric: 纯电
+* Hybrid electric: 混合动力
+
 #### D灯光：Light
 * Headlights: 近光灯
     * On: 开启
     * Off: 关闭
     * Daytime running: 日行灯
     * Automatic: 自动大灯
+* Tail lights 后车灯/尾灯
 * High Beam Lights: 远光灯
 * Hazard Lights: 示宽灯
 * Fog Lights: 雾灯 
@@ -59,6 +65,7 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 * Turn Signal Light: 转向灯
     * Left(左)
     * Right(右)
+* Brake lights: 刹车灯
 * Cabin lights: 氛围灯
 * Reading lights: 阅读灯
 
@@ -103,6 +110,7 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
     * Direction Face: 面部
     * Direction Floor: 底部
     * Direction defrost: 除雾
+* Air vent: 空調出風口
 * Current temperature: 当前温度
     * Celsius: 摄氏温度
     * Fahrenheit: 华氏温度
@@ -175,6 +183,11 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 
 #### Q汽车座舱: Cabin
 * Driver Seat: 驾驶员座椅
+* Passenger seat 副驾驶
+* Back seat 后座
+* Gas pedal / accelerator: 油门
+* Brake pedal: 刹车
+* Clutch: 离合
 * Parking brake state: 手刹状态
 * Auto-apply parking break: 自动手刹
 * Ignition state: 点火状态
@@ -184,9 +197,16 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
     * On: 启动
     * Start: 
 * Door lock: 门锁
-* Mirror: 后视镜
-* Mirror fold: 后视镜折叠
-* Mirror lock: 后视镜锁定
+* Side Mirror: 侧后视镜
+* Side Mirror fold: 侧后视镜折叠
+* Side Mirror lock: 侧后视镜锁定
+* Rear view mirror: 车内后视镜
+* Steering wheel: 方向盘
+* Air bags: 安全气囊
+* Starter: 启动按钮
+* Ignition: 钥匙孔
+* Shift 档位选择器
+* Horn: 喇叭
 * Seat: 座椅
     * memory: 座椅记忆
         * select: 选项
@@ -205,17 +225,27 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
         * vacant: 空着
         * occupied: 入座
     * belt buckled: 安全带扣入
-
+* Center console / armrest 中间的收纳盒 / 歇手的地方
+* Cup holder: 杯子孔
+* Glove compartment 手套箱 / 副驾储物盒
+* Dashboard 车窗下的平台
+* Entertainment system 娱乐设施
 * Window lock: 车窗锁
 * Hood: 引擎盖
 * Rear: 车尾
+* Trunk: 后备箱
+* Roof: 车顶
 * Front windshield: 前挡风玻璃
 * Rear windshield: 后挡风玻璃
+* Windshield wiper: 雨刷
+* Front bumper: 前保险杠
+* Rear bumper: 后保险杠
 
 #### Y仪表盘： Cluster
 * Odometer: 里程表
     * Kilometer: 公里
     * Mile: 英里
+* Speedometer: 速度表
 * Speed: 当前速度
 * Range remaining: 剩余里程数（当前燃料可以支撑的）
 * Steering angle: 方向盘转角
@@ -239,5 +269,6 @@ E/E System - software-defined vehicle, [evolving](https://www.youtube.com/watch?
 
 ### 其他
 * CIVIC: 前排
-* Rear Seat Unit: 后排 -- RSU
 * ICC, Inner Core communication /  Inner Cput communication: 内部叫法，不通用
+* Automatic car 自动档
+* Stick shift car 手动挡
